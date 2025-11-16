@@ -62,7 +62,7 @@ If the sizes of the individual characters don't match, one character will overwr
 
 </br>
 
-# size change:
+# Size change:
 When images are resized, they not only lose quality, but the pixels also become blurred, so the original bit count is no longer correct. Since bitmap fonts are all 4-bit pixel images, the image can only be scaled proportionally to avoid this problem and ensure the image remains 4-bit pixels.
 
 Here's an example:
@@ -83,6 +83,53 @@ Heavily smeared (fail):
 </br>
 
 It is difficult to see with the naked eye, but the lower image has failed and the pixels have smeared together.
+The function that prevents this problem and preserves the original pixels is applied here.
+
+```pascal
+
+{..]
+ private
+    { Private-Deklarationen }
+     function ScalePercentBmp(bitmp: TBitmap; iPercent: Integer): Boolean;
+  public
+    { Public-Deklarationen }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+ function TForm1.ScalePercentBmp(bitmp: TBitmap;
+  iPercent: Integer): Boolean;
+var
+  TmpBmp: TBitmap;
+  ARect: TRect;
+  h, w: Real;
+  hi, wi: Integer;
+begin
+  Result := False;
+  try TmpBmp := TBitmap.Create;
+    try
+      h := bitmp.Height * (iPercent / 100);
+      w := bitmp.Width * (iPercent / 100);
+      hi := StrToInt(FormatFloat('#', h)) + bitmp.Height;
+      wi := StrToInt(FormatFloat('#', w)) + bitmp.Width;
+      TmpBmp.Width := wi;
+      TmpBmp.Height := hi; ARect := Rect(0, 0, wi, hi);
+      TmpBmp.Canvas.StretchDraw(ARect, Bitmp);
+      bitmp.Assign(TmpBmp); finally
+      TmpBmp.Free; end; Result := True;  except  Result := False;
+  end;
+end;
+
+procedure TForm1.Button1Click(Sender: TObject);
+begin
+ ScalePercentBmp(Image1.Picture.Bitmap, 1);
+end;
+```
+
 
 
 
