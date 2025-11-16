@@ -26,7 +26,7 @@ A bitmap font is one that stores each [glyph](https://en.wikipedia.org/wiki/Glyp
 
 The primary disadvantage of bitmap fonts is that the visual quality tends to be poor when scaled or otherwise transformed, compared to outline and stroke fonts, and providing many optimized and purpose-made sizes of the same font dramatically increases memory usage. The earliest bitmap fonts were only available in certain optimized sizes such as 8, 9, 10, 12, 14, 18, 24, 36, 48, 72, and 96 points (assuming a resolution of 96 DPI), with custom fonts often available in only one specific size, such as a headline font at only 72 points.
 
-
+The limited processing power and memory of early computer systems forced the exclusive use of bitmap fonts. Improvements in hardware have allowed them to be replaced with outline or stroke fonts in cases where arbitrary scaling is desirable, but bitmap fonts are still in common use in embedded systems and other places where speed and simplicity are considered important.
 
 
 
