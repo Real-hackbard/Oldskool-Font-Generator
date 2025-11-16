@@ -40,7 +40,7 @@ The project includes 70 pre-made bitmap fonts, each with a specific image size a
 
 </br>
 
-The individual characters must be arranged in the same order as shown in the image above to match the keyboard layout. Additional characters, such as special characters, can be inserted in the empty spaces.
+The individual characters must be arranged in the same order as shown in the image above to match the keyboard layout. Additional characters, such as special characters, can be inserted in the empty spaces. Then you rename the image to ```image###``` where ```"###"``` stands for the number, without a file extension, and copy it to the ```..\Data\32bit\..``` folder. The program will then automatically recognize the image and add it to the list.
 
 
 
