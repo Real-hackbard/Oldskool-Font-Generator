@@ -11,7 +11,7 @@
 
 </br>
 
-A bitmap font is one that stores each glyph as an array of pixels (that is, a bitmap). It is less commonly known as a raster font or a pixel font. Bitmap fonts are simply collections of raster images of glyphs. For each variant of the font, there is a complete set of glyph images, with each set containing an image for each character. For example, if a font has three sizes, and any combination of bold and italic, then there must be 12 complete sets of images.
+A bitmap font is one that stores each [glyph](https://en.wikipedia.org/wiki/Glyph) as an array of [pixels](https://en.wikipedia.org/wiki/Pixel) (that is, a bitmap). It is less commonly known as a raster font or a pixel font. Bitmap fonts are simply collections of [raster images](https://en.wikipedia.org/wiki/Raster_graphics) of glyphs. For each variant of the font, there is a complete set of glyph images, with each set containing an image for each character. For example, if a font has three sizes, and any combination of bold and italic, then there must be 12 complete sets of images.
 
 </br>
 
