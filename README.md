@@ -82,7 +82,7 @@ Heavily smeared (fail):
 
 </br>
 
-It is difficult to see with the naked eye, but the lower image has failed and the pixels have smeared together.
+It is difficult to see with the naked eye, but the lower image has failed and the pixels have smeared together.  
 The function that prevents this problem and preserves the original pixels is applied here.
 
 ```pascal
