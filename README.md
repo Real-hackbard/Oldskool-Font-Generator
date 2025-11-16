@@ -29,10 +29,16 @@ The primary disadvantage of bitmap fonts is that the visual quality tends to be 
 The limited processing power and memory of early computer systems forced the exclusive use of bitmap fonts. Improvements in hardware have allowed them to be replaced with outline or stroke fonts in cases where arbitrary scaling is desirable, but bitmap fonts are still in common use in embedded systems and other places where speed and simplicity are considered important.
 
 
+# Integrate your own bitmap fonts:
+The project includes 70 pre-made bitmap fonts, each with a specific image size and a specific character size within the image. The image size must be exactly ```320 × 150 (4-bit) pixels```, and the characters must not exceed a maximum size of ```25 × 25``` to prevent them from being overwritten.
 
+### Example original size:
 
+</br>
 
+[image008.bmp](https://github.com/user-attachments/files/23566044/image008.bmp)
 
+</br>
 
 
 
