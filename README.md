@@ -62,13 +62,27 @@ If the sizes of the individual characters don't match, one character will overwr
 
 </br>
 
+# size change:
+When images are resized, they not only lose quality, but the pixels also become blurred, so the original bit count is no longer correct. Since bitmap fonts are all 4-bit pixel images, the image can only be scaled proportionally to avoid this problem and ensure the image remains 4-bit pixels.
 
+Here's an example:
 
+Original 4 Bit:
+</br>
 
+![original 4bit](https://github.com/user-attachments/assets/275866a2-c13a-46e2-871a-228003dc53eb)
 
+</br>
 
+Heavily smeared (fail):
 
+</br>
 
+![smeared](https://github.com/user-attachments/assets/8c30312d-5a2a-4c56-8b83-e45455862cd6)
+
+</br>
+
+It is difficult to see with the naked eye, but the lower image has failed and the pixels have smeared together.
 
 
 
