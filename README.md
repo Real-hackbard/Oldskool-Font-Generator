@@ -11,7 +11,20 @@
 
 </br>
 
+A bitmap font is one that stores each glyph as an array of pixels (that is, a bitmap). It is less commonly known as a raster font or a pixel font. Bitmap fonts are simply collections of raster images of glyphs. For each variant of the font, there is a complete set of glyph images, with each set containing an image for each character. For example, if a font has three sizes, and any combination of bold and italic, then there must be 12 complete sets of images.
 
+</br>
+
+![Oldskool Font Generator](https://github.com/user-attachments/assets/c49fd120-fac9-4535-881b-8ec358c0eb66)
+
+</br>
+
+* Extremely fast and simple to render
+* Easier to create than other kinds.
+* Unscaled bitmap fonts always give exactly the same output when displayed on the same specification display
+* Best for very low-quality or small-size displays where the font needs to be fine-tuned to display clearly
+
+The primary disadvantage of bitmap fonts is that the visual quality tends to be poor when scaled or otherwise transformed, compared to outline and stroke fonts, and providing many optimized and purpose-made sizes of the same font dramatically increases memory usage. The earliest bitmap fonts were only available in certain optimized sizes such as 8, 9, 10, 12, 14, 18, 24, 36, 48, 72, and 96 points (assuming a resolution of 96 DPI), with custom fonts often available in only one specific size, such as a headline font at only 72 points.
 
 
 
