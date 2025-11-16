@@ -40,7 +40,7 @@ The project includes 70 pre-made bitmap fonts, each with a specific image size a
 
 </br>
 
-
+The individual characters must be arranged in the same order as shown in the image above to match the keyboard layout. Additional characters, such as special characters, can be inserted in the empty spaces.
 
 
 
