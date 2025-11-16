@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.787,D:\Incoming\[.WORK]\Oldskool Font Generator\oldskool-bitmap-font-police-bitmap\demo\Unit2.pas=D:\Incoming\[.WORK]\Oldskool Font Generator\oldskool-bitmap-font-police-bitmap\demo\Zoom.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.470,=D:\Incoming\[.WORK]\Oldskool Font Generator\oldskool-bitmap-font-police-bitmap\Source\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.240,D:\Incoming\[.WORK]\oldskool-bitmap-font\oldskool-bitmap-font-police-bitmap\demo\Unit1.dfm=D:\Incoming\[.WORK]\oldskool-bitmap-font\oldskool-bitmap-font-police-bitmap\demo\main.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.928,=D:\Incoming\[.WORK]\Oldskool Font Generator\oldskool-bitmap-font-police-bitmap\demo\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.787,D:\Incoming\[.WORK]\Oldskool Font Generator\oldskool-bitmap-font-police-bitmap\demo\Unit2.dfm=D:\Incoming\[.WORK]\Oldskool Font Generator\oldskool-bitmap-font-police-bitmap\demo\Zoom.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.240,D:\Incoming\[.WORK]\oldskool-bitmap-font\oldskool-bitmap-font-police-bitmap\demo\Unit1.pas=D:\Incoming\[.WORK]\oldskool-bitmap-font\oldskool-bitmap-font-police-bitmap\demo\main.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.647,D:\Incoming\[.WORK]\oldskool-bitmap-font\oldskool-bitmap-font-police-bitmap\demo\OldskoolFont.dproj=D:\Incoming\[.WORK]\oldskool-bitmap-font\oldskool-bitmap-font-police-bitmap\demo\bmpfont.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
