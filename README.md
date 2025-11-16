@@ -42,9 +42,12 @@ The project includes 70 pre-made bitmap fonts, each with a specific image size a
 
 The individual characters must be arranged in the same order as shown in the image above to match the keyboard layout. Additional characters, such as special characters, can be inserted in the empty spaces. Then you rename the image to ```image###``` where ```"###"``` stands for the number, without a file extension, and copy it to the ```..\Data\32bit\..``` folder. The program will then automatically recognize the image and add it to the list.
 
+# Chars:
+To check whether the characters are exactly the right size, the program has a character manager that allows you to individually visualize or export all characters.
 
+</br>
 
+![Oldskool_chars](https://github.com/user-attachments/assets/aa7f7737-3602-43dd-8f03-a22a0c3355bf)
 
-
-
+</br>
 
