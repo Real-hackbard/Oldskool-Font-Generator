@@ -51,3 +51,23 @@ To check whether the characters are exactly the right size, the program has a ch
 
 </br>
 
+If the sizes of the individual characters don't match, one character will overwrite the character below it. This can be checked pixel by pixel using the manager.
+
+</br>
+
+![char](https://github.com/user-attachments/assets/279b818a-8869-4ce1-84a6-917b3f7b7dd6)
+
+</br>
+
+
+
+
+
+
+
+
+
+
+
+
+
