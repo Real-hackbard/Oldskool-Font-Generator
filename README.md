@@ -119,8 +119,12 @@ begin
       TmpBmp.Width := wi;
       TmpBmp.Height := hi; ARect := Rect(0, 0, wi, hi);
       TmpBmp.Canvas.StretchDraw(ARect, Bitmp);
-      bitmp.Assign(TmpBmp); finally
-      TmpBmp.Free; end; Result := True;  except  Result := False;
+      bitmp.Assign(TmpBmp);
+     finally
+      TmpBmp.Free;
+    end; Result := True;
+  except
+  Result := False;
   end;
 end;
 
